@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio</title>
+    <link href="ShapeAI portfolio.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main class='main'>
+      <nav class='navBar'>
+        <h1>NITHIN K BHAT Portfolio</h1>
+        <div class='navigationMenu'>
+          <a href="#aboutMe">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contactForm">Let's Connect!</a>
+        <div>
+      </nav>
+      <section class='heroSection'>
+        <img 
+        class='profileImage'
+        src='ShapeAI.jpg'>
+        <div class='herosectionDetails'>
+          <h1><a style="text-decoration: none;" href="https://www.linkedin.com/in/nithin-k-bhat-aa85611b7/" >NITHIN K BHAT</a></h1>
+          <h3>Enthusiastic Web Developer</h3>
+        </div>
+      </section>
+      <section class='aboutMe' id='aboutMe'>
+        <h1>About Me</h1>
+        <p>I am from kervashe,karnataka.Pursuing Electronics and Communication Engineering from MITE,Moodbidri.I have learnt marketing skills from various companies.An energetic individual and keen to learn new skills.</p>
+      </section>
+      <section class='skillsAndProjects'>
+        <div class='skills' id='skills'>
+          <h1 class='cardHeading'>Skills</h1>
+          <img title='HTML' src='html.png'>
+          <img title='CSS' src='css-3.png'>
+          <img title='Javascript' src='javascript-logo.png'>
+          <img title='PHP' src='php.png'>
+          <img title='SQL' src='sql.svg'>
+          <img title='Bootstrap' src='bootstrap.jpg'>
+          <img title='C' src='c.png'>
+        </div>
+        <div class='projects' id='projects'>
+          <h1 class='cardHeading'>Projects</h1>
+          <div class='projectContainer'>
+            <img src='Lyriclious.jfif'/>
+            <div class='projectDescription'>
+              <h4><a  href="https://nithin-k-bhat.000webhostapp.com/portfolio.php">Solar devices E-Commerce website</a></h4>
+              <p>Completed Full Stack Web Development Internship<br> <a href="https://drive.google.com/file/d/1linUVo-F1Pp9CZQdQbYT6rhEz_C29Y8P/view?usp=sharing">view certificate</a> </p>
+            </div>
+          </div>
+          <div class='projectContainer'>
+            <img src='project2.jfif'/>
+            <div class='projectDescription'>
+              <h4><a href="https://drive.google.com/file/d/1PeV-AcLiQ3ghbCLSvWDjhRYtGVvAH14O/view">5S implementation in Ceramic Industry</a></h4>
+              <p>Name of the industry: ACMA center for technology <br><a href="https://s.docworkspace.com/d/AH6I1Z2Wj_NCkZui8-edFA">view certificate</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class='contactForm' id='contactForm'>
+        <h1>Let's Connect!</h2>
+        <div class='formGroup'>
+          <label for='name'>Enter Full Name</label><br/>
+          <input type='text' id='name' placeholder='Full Name'/>
+        </div>
+        <div class='formGroup'>
+          <label for='email'>Email</label><br/>
+          <input type='text' id='email' placeholder='Email'/>
+        </div>
+        <div class='formGroup'>
+          <label for='message'>Message</label><br/>
+          <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+        </div>
+        <button class='submitButton' onClick={submit()}>Connect</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
